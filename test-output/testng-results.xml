@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-12T18:22:03 IST" name="Default suite" finished-at="2024-04-12T18:22:12 IST" duration-ms="9586">
+  <suite started-at="2024-04-15T12:08:29 IST" name="Default suite" finished-at="2024-04-15T12:08:47 IST" duration-ms="18255">
     <groups>
     </groups>
-    <test started-at="2024-04-12T18:22:03 IST" name="Default test" finished-at="2024-04-12T18:22:12 IST" duration-ms="9586">
+    <test started-at="2024-04-15T12:08:29 IST" name="Default test" finished-at="2024-04-15T12:08:47 IST" duration-ms="18255">
       <class name="test_ng.NGTest">
-        <test-method signature="testMethod()[pri:0, instance:test_ng.NGTest@77167fb7]" started-at="2024-04-12T18:22:03 IST" name="testMethod" finished-at="2024-04-12T18:22:12 IST" duration-ms="9562" status="PASS">
+        <test-method signature="testMethod()[pri:0, instance:test_ng.NGTest@77167fb7]" started-at="2024-04-15T12:08:29 IST" name="testMethod" finished-at="2024-04-15T12:08:47 IST" duration-ms="18224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod -->
