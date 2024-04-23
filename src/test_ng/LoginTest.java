@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -15,7 +14,7 @@ public class LoginTest {
 
     @BeforeClass
     public void setUp() {
-        // Set the path to the chromedriver executable
+        // Set the path to the ChromeDriver executable
         System.setProperty("webdriver.chrome.driver", "/home/appinventiv/Downloads/chromedriver-linux64/chromedriver");
 
         // Initialize ChromeDriver
@@ -82,7 +81,7 @@ public class LoginTest {
         Thread.sleep(3000);
 
 
-        // Verify that login is successful by checking for a welcome message or dashboard element
+        // Verify that login is successful by checking for a welcome message or Dashboard element
         WebElement welcomeMessage = driver.findElement(By.id("welcome-message"));
         Assert.assertTrue(welcomeMessage.isDisplayed(), "Login successful");
     }
