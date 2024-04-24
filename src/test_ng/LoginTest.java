@@ -85,7 +85,7 @@ public class LoginTest {
         WebElement welcomeMessage = driver.findElement(By.id("welcome-message"));
         Assert.assertTrue(welcomeMessage.isDisplayed(), "Login successful");
     }
-
+    // comment added
 
     @AfterClass
     public void tearDown() {
