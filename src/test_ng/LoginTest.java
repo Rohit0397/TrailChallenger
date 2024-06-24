@@ -100,7 +100,7 @@ public class LoginTest {
 
         // Click on the login button
         loginButton.click();
-     // Add a delay of 3 seconds after opening the URL
+     // Add a delay of 3 seconds after opening the URL -
         Thread.sleep(3000);
 
     }
