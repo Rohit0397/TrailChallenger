@@ -7,7 +7,6 @@
         <methods>
           <include name="successfulLoginTest"/>
           <include name="unsuccessfulLoginCase"/>
-          <include name="tearDown"/>
           <include name="unsuccessfulLoginTest"/>
           <include name="setUp"/>
         </methods>
